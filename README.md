@@ -19,6 +19,7 @@ const codes = [
   "ArrowRight",
   "b",
   "a"
+  
 ];
 
 function init() {
