@@ -18,10 +18,7 @@ function init() {
   body.addEventListener('keydown', function(e) {
     if(e.key === codes[index]){
       index++
-      console.log(index)
-      console.log(e.key)
       if(index === codes.length){
-        console.log(index)
         window.alert("Hurray!");
         index = 0
       }
